@@ -4,7 +4,6 @@ keywords: art
 description: pictures
 email: yevheniiblink@gmail.com
 baseurl: ""
-url: "http://moonshellart.com"
 github_username: "blinkme182"
 
 # Build settings
@@ -14,6 +13,8 @@ show_drafts: false
 
 include:
   - _pages
+exclude:
+  - docs
 markdown: kramdown
 permalink: pretty
 
