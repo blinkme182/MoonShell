@@ -1,0 +1,19 @@
+# Site settings
+title: Moon-shell
+keywords: art
+description: pictures
+email: yevheniiblink@gmail.com
+baseurl: ""
+url: "http://moonshellart.com"
+github_username: "blinkme182"
+
+# Build settings
+gems:
+  - jekyll-sitemap
+show_drafts: false
+
+include:
+  - _pages
+markdown: kramdown
+permalink: pretty
+
