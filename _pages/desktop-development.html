@@ -3,11 +3,18 @@ permalink: /art/
 layout: default
 ---
 <div>
-	<p>some text</p>
-	<p>{{site.data.first.name}}</p>
-	<p>{{site.data.first.alt}}</p>
-	<img src="/img/post_3.jpg" alt="angular">
+	<a href="/MoonShell">На главную</a>
 
+	<ui>
+		<li>
+			<p>{{site.data.first.works[0].name}}</p>
+			<img src={{site.data.first.works[0].img}} alt="мишка">
+		</li>
+		<li>
+			<p>{{site.data.first.works[1].name}}</p>
+			<img src={{site.data.first.works[1].img}} alt="мишка">
+		</li>
+	</ui>
 </div>
 
 <!--

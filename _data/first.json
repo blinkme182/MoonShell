@@ -1,4 +1,13 @@
 {
   "name": "zhenya",
-  "alt": "qwerty"
+  "works": [
+    {
+      "name": "Белый",
+      "img": "/img/work_bear.jpg"
+    },
+    {
+      "name": "Гризли",
+      "img": "/img/work_grizly.jpg"
+    }
+  ]
 }
