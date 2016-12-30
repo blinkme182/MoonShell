@@ -3,7 +3,7 @@ title: Moon-shell
 keywords: art
 description: pictures
 email: yevheniiblink@gmail.com
-baseurl: ""
+baseurl: "/MoonShell"
 url: "https://blinkme182.github.io/"
 github_username: "blinkme182"
 
@@ -11,11 +11,12 @@ github_username: "blinkme182"
 gems:
   - jekyll-sitemap
 show_drafts: false
-
 include:
   - _pages
 exclude:
   - docs
 markdown: kramdown
 permalink: pretty
-
+sass:
+  sass_dir: _scss
+  style: compressed
