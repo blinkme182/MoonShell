@@ -3,17 +3,18 @@ permalink: /art/
 layout: default
 ---
 <div>
-	<a href="/MoonShell">На главную</a>
+	<div class="owl-carousel owl-theme">
+		<img src={{site.data.first.works[0].img}} alt="мишка">
+		<img src={{site.data.first.works[1].img}} alt="мишка">
+		<img src={{site.data.first.works[2].img}} alt="мишка">
+		<img src={{site.data.first.works[3].img}} alt="мишка">
+		<img src={{site.data.first.works[4].img}} alt="мишка">
+		<img src={{site.data.first.works[5].img}} alt="мишка">
+	</div>
 
-	<ui>
-		<li>
-			<p>{{site.data.first.works[0].name}}</p>
-			<img src={{site.data.first.works[0].img}} alt="мишка">
-		</li>
-		<li>
-			<p>{{site.data.first.works[1].name}}</p>
-			<img src={{site.data.first.works[1].img}} alt="мишка">
-		</li>
-	</ui>
+
+	<form action="https://getform.org/u/38a55efd-9ef1-416d-9a2e-137580fa67c6" enctype="multipart/form-data" method="POST">
+		<button type="submit">SEND</button>
+	</form>
 </div>
 

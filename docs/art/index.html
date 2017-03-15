@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,49 @@
     <title>Moon Shell</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="/MoonShell/css/styles.css">
+    <script type="text/javascript" src="/MoonShell/js/libraries/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/autogrow.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/lodash.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/materialize.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/parsley.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/prism.min.js"></script>
+    <script type="text/javascript" src="/MoonShell/js/libraries/nagging-menu.js"></script>
 </head>
 
 
 
-    <div class="menu">
-    <div class="menu-block">
-        <img style="width: 100px;" src="/MoonShell/img/logo.jpg">
-        <a href="/MoonShell">Main</a>
-
-        <div class="categories">
-            <a href="/MoonShell/art">pencil</a>
-            <a href="/MoonShell/art">watercolor</a>
-        </div>
+    <body>
+    <header>
+        <div class="menu">
+    <div id="menu" class="fixed">
+        <ul>
+            <li><a href="/MoonShell">Main</a></li>
+            <li><a href="/MoonShell/victoriya">About me</a></li>
+            <li><a href="/MoonShell/art">Pencil</a></li>
+            <li><a href="/MoonShell/art">Watercolor</a></li>
+            <li><a href="/MoonShell/art">Order now</a></li>
+        </ul>
     </div>
 </div>
-    <body>
+
+
+    </header>
         <main>
             <div>
-	<a href="/MoonShell">На главную</a>
+	<div class="owl-carousel owl-theme">
+		<img src=../img/work_bear.jpg alt="мишка">
+		<img src=../img/work_grizly.jpg alt="мишка">
+		<img src=../img/work_white.jpg alt="мишка">
+		<img src=../img/work_panda.jpg alt="мишка">
+		<img src=../img/work_venum.jpg alt="мишка">
+		<img src=../img/work_blue_sky_sity.jpg alt="мишка">
+	</div>
 
-	<ui>
-		<li>
-			<p>Белый</p>
-			<img src=../img/work_bear.jpg alt="мишка">
-		</li>
-		<li>
-			<p>Гризли</p>
-			<img src=../img/work_grizly.jpg alt="мишка">
-		</li>
-	</ui>
+
+	<form action="https://getform.org/u/38a55efd-9ef1-416d-9a2e-137580fa67c6" enctype="multipart/form-data" method="POST">
+		<button type="submit">SEND</button>
+	</form>
 </div>
 
 
@@ -55,4 +69,9 @@
         </ul>
     </div>
 </div>
+
+<script type="text/javascript" src="/MoonShell/js/libraries/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/MoonShell/js/libraries/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/MoonShell/js/scripts.js"></script>
+
 </html>

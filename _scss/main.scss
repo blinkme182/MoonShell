@@ -1,19 +1,17 @@
-.main{
-  .post{
-    margin: auto;
-    width: 70%;
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/main-image.jpg");
+  background-size: cover;
+
+  .greeting{
+    padding-top: 32vh;
     max-width: 1200px;
-    padding: 30px 10px;
-    text-align: justify;
+    margin:0 auto;
+    text-align: center;
+    color: white;
 
-    .main-post-img{
-      width: 100%;
-    }
+    h1 { font-size: 50px; }
+    p { font-size: 17px; }
   }
-  .main-text{
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-
 }

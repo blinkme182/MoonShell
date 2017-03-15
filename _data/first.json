@@ -8,6 +8,22 @@
     {
       "name": "Гризли",
       "img": "../img/work_grizly.jpg"
+    },
+    {
+      "name": "Белый",
+      "img": "../img/work_white.jpg"
+    },
+    {
+      "name": "Панда",
+      "img": "../img/work_panda.jpg"
+    },
+    {
+      "name": "Венум",
+      "img": "../img/work_venum.jpg"
+    },
+    {
+      "name": "Город цвета неба",
+      "img": "../img/work_blue_sky_sity.jpg"
     }
   ]
 }
